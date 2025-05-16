@@ -1,0 +1,35 @@
+question1:  
+  SELECT 
+    paymentDate, SUM(amount) AS amount
+FROM
+    payments
+GROUP BY paymentDate
+ORDER BY paymentDate DESC
+LIMIT 5;
+
+
+question2 :
+SELECT 
+    customerName,country, avg(creditLimit) as credit
+FROM
+    customers
+GROUP BY 
+    customerName, country;
+
+
+question3:
+SELECT 
+    productCode, quantityOrdered, SUM(priceEach)
+FROM
+    orderdetails
+GROUP BY productCode , quantityOrdered;
+
+
+questions 4
+  SELECT 
+    checkNumber, MAX(amount)
+FROM
+    payments
+GROUP BY checkNumber;
+
+
