@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Responsive Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">Responsive Webpage</header>
+
+    <div class="container">
+        <aside class="sidebar">Sidebar Content</aside>
+        <main class="main-content">
+            <section class="grid-layout">
+                <div class="item">Box 1</div>
+                <div class="item">Box 2</div>
+                <div class="item">Box 3</div>
+                <div class="item">Box 4</div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">Footer Section</footer>
+
+</body>
+</html>
